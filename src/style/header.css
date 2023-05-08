@@ -1,0 +1,27 @@
+.header{
+    margin-top: 20px;
+}
+
+.logo{
+    margin-right: 350px;
+    margin-left: 50px;
+}
+.link{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(139, 115, 115);
+    font-weight: 500;
+}
+.link:hover{
+    color: rgb(8, 8, 49);
+}
+.link-menu{
+    border: 1px solid rgb(8, 8, 49);
+    color:  rgb(8, 8, 49);
+    background: white;
+    padding: 5px;
+}
+.link-menu:hover{
+    background: rgb(8, 8, 49);
+    color: aliceblue;
+}
