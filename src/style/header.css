@@ -1,17 +1,27 @@
-.header{
+.header {
     margin-top: 20px;
+   /* display: flex;*/
+    justify-content: space-between;
+    background: greenyellow;
+    align-items: center;
 }
 
-.logo{
-    margin-right: 350px;
+.logo {
+    margin-right: 400px;
     margin-left: 50px;
+    margin: 15px;
 }
-.link{
+
+.link {
     margin-right: 10px;
     text-decoration: none;
     color: rgb(139, 115, 115);
     font-weight: 500;
+    position: relative;
+    margin: 15px;
 }
+
+/*
 .link:hover{
     color: rgb(8, 8, 49);
 }
@@ -24,4 +34,23 @@
 .link-menu:hover{
     background: rgb(8, 8, 49);
     color: aliceblue;
+}
+*/
+@media (min-width: 770px) {
+    .header{
+            display: flex;
+        }
+    }
+@media (max-width: 770px) {
+  
+    .link {
+        margin: 0;
+        display: flex;
+        padding-left: 20px;
+        left: 0;
+        background: rgb(8, 8, 49);
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s ease all;  
+    }
 }
