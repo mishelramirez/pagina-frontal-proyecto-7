@@ -1,6 +1,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .container {
@@ -24,7 +25,7 @@
 
 .text {
     color: aliceblue;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .container_img{
@@ -49,6 +50,7 @@ z-index: 2;
         text-align: center;
         margin: 0 auto;
         padding-left: 0;
+        height: 420px;
     }
     .title {
         font-size: 40px;
@@ -56,4 +58,11 @@ z-index: 2;
     .text{
         font-size: 15px;
     }
+    .intro_img{
+         width: 100%;
+    }
+    .rallita{
+        display: none;
+    }
+   
 }
