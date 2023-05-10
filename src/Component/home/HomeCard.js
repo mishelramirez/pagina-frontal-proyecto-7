@@ -1,5 +1,4 @@
-import style from "../style/home.css";
-
+import style from "../../style/home.css";
 
 function Home(props) {
 
@@ -8,11 +7,13 @@ function Home(props) {
         <div>
            
             <div className="card">
-                <img className="img-card" />
+                <img className="img-card" src={props.urlimg} />
                 <p className="title-card">{props.title}</p>
                 <p className="text-card">{props.text}</p>
             </div>
+         
         </div>
+    
     );
 }
 

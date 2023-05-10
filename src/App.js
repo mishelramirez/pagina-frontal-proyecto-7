@@ -1,10 +1,11 @@
-import Navbar from "./Component/Navbar";
-import Header from "./Component/Header";
-import Home from "./Component/HomeCard.js";
-import HomeTitle from "./Component/HomeTitle.js"
+import Navbar from "./Component/navbar/Navbar";
+import Header from "./Component/header/Header";
+import Home from "./Component/home/HomeCard.js";
+import HomeTitle from "./Component/home/HomeTitle.js"
+import HomeBox from "./Component/home/Homebox.js"
 const cardInfo = [
   {
-    img: "",
+    urlimg: "./assets/icon-people-first.svg",
     title: "Snappy Process ",
     text: "Our application process can be completed in<br/> minutes,not hours.Don´t get stuck filing in tedious forms",
   },
@@ -27,19 +28,22 @@ function App() {
     <Navbar />
     <Header />
     <HomeTitle />
+
+
     <div className="container-cardsinfo">
       {cardInfo.map((props) => {
-
         return (
-
           <Home
-            img={props.img}
+            img={props.urlimg}
             title={props.title}
             text={props.text}
           />
         )
       })}
-    </div>
+       </div>
+       
+      <HomeBox/>
+   
   </div>;
 }
 

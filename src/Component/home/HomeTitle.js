@@ -1,4 +1,5 @@
-import style from "../style/home.css";
+import style from "../../style/home.css";
+
 
 
 function HomeTitle() {

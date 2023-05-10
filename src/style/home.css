@@ -1,14 +1,88 @@
-
-.container-cardsinfo{
-    display: flex;
-}
-.card{
-    width: 192px;
-    border: 1px solid red;
+.card {
+    width: 420px;
+    margin-right: 20px;
     height: 200px;
 }
+
 .rallita2 {
     border-bottom: 2px solid rgb(112, 104, 104);
     width: 100px;
     padding-top: 70px;
+}
+
+.titledecard {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.title1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Karla;
+}
+
+.title-card {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-cardsinfo {
+    margin-left: 50px;
+}
+
+.box {
+    width: 1300px;
+    height: 300px;
+    background: rgb(8, 8, 49);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.parrafo {
+    color: aliceblue;
+    font-size: 50px;
+    padding-left: 120px;
+    font-family: Karla;
+}
+
+.button2 {
+    height: 50px;
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    margin-left: 480px;
+    width: 160px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 770px) {
+    .container-cardsinfo {
+        display: flex;
+    }
+}
+
+@media (max-width: 770px) {
+    .container-cardsinfo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .titledecard {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .card {
+        width: 320px;
+    }
+
 }

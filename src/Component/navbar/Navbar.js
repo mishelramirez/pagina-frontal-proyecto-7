@@ -1,7 +1,7 @@
 import { BrowserRouter, NavLink } from 'react-router-dom'
 import { useState } from 'react';
-import logo from "../assets/logo.svg"
-import style from "../style/navbar.css"
+import logo from "../../assets/logo.svg"
+import style from "../../style/navbar.css"
 
 
 const Navbar = () => {
