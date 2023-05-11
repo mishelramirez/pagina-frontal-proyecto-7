@@ -3,13 +3,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
-
+.nav_logo{
+    width: 50%;
+}
 .logo {
-    margin-left: 15px;
+    margin-left: 20px;
+}
+.nav_items{
+    width: 50%;
+    margin-left: 336px;
 }
 
-.nav_items .link{
+.link{
     margin-right: 10px;
     text-decoration: none;
     color: rgb(139, 115, 115);
@@ -47,6 +54,9 @@
 }
 
 @media (max-width: 770px) {
+    .logo {
+        margin-left: 60px;
+    }
     .nav_items{
         margin-top: 30px;
     }

@@ -9,6 +9,7 @@ import style from "../../style/footer.css"
 
 function Footer() {
     return <div className="footer-container">
+        <div>
         <div className='container1'>
             <div className='img-footer'>
                 <img className='img-logo' src={logo} />
@@ -57,6 +58,7 @@ function Footer() {
                     <NavLink to="/home" className="footerlink">LICENSES</NavLink>
                 </BrowserRouter>
                 </div>
+        </div>
         </div>
 
     </div>;
