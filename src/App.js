@@ -3,6 +3,8 @@ import Header from "./Component/header/Header";
 import Home from "./Component/home/HomeCard.js";
 import HomeTitle from "./Component/home/HomeTitle.js"
 import HomeBox from "./Component/home/Homebox.js"
+import Footer from "./Component/footer/footer.js"
+
 const cardInfo = [
   {
     urlimg: "./assets/icon-people-first.svg",
@@ -40,10 +42,10 @@ function App() {
           />
         )
       })}
-       </div>
-       
-      <HomeBox/>
-   
+    </div>
+
+    <HomeBox />
+    <Footer />
   </div>;
 }
 
