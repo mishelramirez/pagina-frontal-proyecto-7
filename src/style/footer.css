@@ -1,8 +1,12 @@
-.footer-container{
+.footer-container {
     margin-top: 150px;
 }
+
 .container1 {
     display: flex;
+    border-bottom: 1px solid rgb(133, 129, 129);
+    margin-left: 50px;
+    margin-right: 219px;
 }
 
 .img-footer {
@@ -12,7 +16,7 @@
 
 .container-redes {
     width: 50%;
-    margin-left: 150px;
+    margin-left: 600px;
 }
 
 .img-redes {
@@ -21,11 +25,27 @@
 
 .link-footer {
     display: flex;
-    
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .links {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    width: 25%;
+}
+
+.title2 {
+    font-size: 20px;
+    color: rgb(192, 195, 197);
+    font-weight: 200;
+    padding-left: 50px;
+}
+
+.footerlink {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+    font-weight: 600;
+    padding-left: 50px;
 }

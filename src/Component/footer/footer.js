@@ -23,7 +23,7 @@ function Footer() {
         </div>
         <div className='link-footer'>
             <div className='links'>
-                <p>OUR COMPANY</p>
+                <p className='title2'>OUR COMPANY</p>
                 <BrowserRouter>
                     <NavLink to="/home" className="footerlink ">HOW WE WORK</NavLink>
                     <NavLink to="/home" className="footerlink">WHY INSURE?</NavLink>
@@ -32,7 +32,7 @@ function Footer() {
                 </BrowserRouter>
             </div>
             <div className='links'>
-                <p>HELP ME</p>
+                <p className='title2'>HELP ME</p>
                 <BrowserRouter>
                     <NavLink to="/home" className="footerlink ">FAQ</NavLink>
                     <NavLink to="/home" className="footerlink">TERMS OF USE</NavLink>
@@ -42,7 +42,7 @@ function Footer() {
             </div>
 
             <div className='links'> 
-                <p>CONSTACT</p>
+                <p className='title2'>CONSTACT</p>
                 <BrowserRouter>
                     <NavLink to="/home" className="footerlink ">SALES</NavLink>
                     <NavLink to="/home" className="footerlink">SUPPORT</NavLink>
@@ -51,7 +51,7 @@ function Footer() {
             </div>
 
             <div className='links'>
-                <p>OTHERS</p>
+                <p className='title2'>OTHERS</p>
                 <BrowserRouter>
                     <NavLink to="/home" className="footerlink ">CAREERS</NavLink>
                     <NavLink to="/home" className="footerlink">PRESS</NavLink>
